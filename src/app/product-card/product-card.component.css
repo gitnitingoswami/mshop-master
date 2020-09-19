@@ -1,0 +1,24 @@
+.card {
+    margin-bottom: 20px;
+    margin:1vw ;
+    }
+
+.card-footer{
+    padding: 0;
+}
+
+.card-footer button{
+    cursor: pointer;
+}
+.card-title{
+    font-size:1.5vw;
+}
+.card-text{
+    font-size:1.5vw;
+}
+.btn{
+    font-size: 1.5vw;
+}
+.cart{
+    font-size:1.5vw;
+}

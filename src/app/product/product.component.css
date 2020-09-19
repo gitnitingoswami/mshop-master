@@ -1,0 +1,90 @@
+.spinner-border{
+   height: 20vw;
+   background: blur;
+}
+.Menubar{
+   margin: 0%;
+  
+   
+}
+.car{
+   width: 100%;
+}
+
+img {
+   vertical-align: middle;
+   border-style: none;
+   width: 100%;
+   height: 40vh;
+}
+.fil{
+   display: flex;
+   position: relative;
+  
+   height: 10;
+}
+.form-control{
+   width: auto;
+}
+.search{
+   
+
+
+margin-top:10px;;
+    margin-right: 2px;
+    margin-left: auto;
+   
+  
+    width: fit-content;
+   
+};
+
+
+.bar{
+   margin-top: 10px;
+   margin-left: auto;
+    margin-right: auto;
+ 
+   
+}
+
+@media screen and (max-width: 600px) {
+  
+   .search{
+   
+      
+    
+    margin-top: 10px;;
+        margin-right: auto;
+
+        margin-left: auto;
+        
+      
+        width: fit-content;
+       
+    };
+    .car{
+       height: 70px;
+    }
+ }
+ @media screen and (max-width: 350px) {
+  
+   .search{
+   
+      background-color: rgb(42, 165, 97);
+    
+    margin-top: 10px;;
+       
+
+        margin-left: auto;
+        background-color: brown;
+      
+        width: fit-content;
+       
+    }
+    .bar{
+       width:150px;
+       
+    }
+    
+ }

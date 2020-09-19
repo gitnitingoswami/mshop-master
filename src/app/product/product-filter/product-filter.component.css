@@ -1,0 +1,60 @@
+.sticky-top{
+    top: 0;
+}
+
+.menu{
+   
+    width: 100%;
+    border:2px black;
+    margin-top:56px;
+    z-index: 2
+    ;
+   height: 80vh;
+    
+   
+}
+th{
+   font-size: 2vw;
+  text-transform: capitalize;
+    margin: 4px;
+    text-transform: capitalize;
+}
+th a{
+    color:black;
+    text-decoration: none;
+}
+th a:hover{
+    color:black;
+    text-decoration: none;
+    
+    border: 2px solid black;
+    color: red;
+}
+
+@media screen and (max-width:600px)
+{
+  
+    .menu{
+        height: 20vh;
+    }
+    th{
+        font-size: 8px;
+        text-transform: capitalize;
+         
+         margin-left: 1px;
+         margin-right: 1px;
+         color:black;
+     }
+     th a{
+        color:black;
+        text-decoration: none;
+    }
+    th a:hover{
+        color:black;
+        text-decoration: none;
+        border: 2px solid black;
+        
+    color: red;
+    }
+    
+}
